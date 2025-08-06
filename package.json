@@ -1,0 +1,23 @@
+{
+  "name": "sms-viewer",
+  "version": "1.0.0",
+  "description": "A Node.js app to view incoming SMS messages from free public US numbers.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "sms",
+    "nodejs",
+    "ejs",
+    "public-numbers",
+    "verification"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "ejs": "^3.1.9",
+    "express": "^4.19.2"
+  }
+}
