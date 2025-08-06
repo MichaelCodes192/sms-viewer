@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pick a Free US Number</title>
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+  <h1>📱 Pick a Free US Phone Number</h1>
+  <ul class="number-list">
+    <% numbers.forEach(n => { %>
+      <li><a href="/number/<%= n.id %>"><%= n.number %></a></li>
+    <% }) %>
+  </ul>
+</body>
+</html>
